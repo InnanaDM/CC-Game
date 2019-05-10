@@ -9,7 +9,7 @@
 	padding-top: 5%;
 	padding-bottom: 5%; */
 	width: 75%;
-	height: 90%px;
+	height: 90%;
 	padding-left: 25%;
 	padding-top: 2%;
 	padding-bottom: 1%;
@@ -19,10 +19,17 @@
 }
 
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("assets/images/abstract1 copy.jpg");
 	background-size: 75%;
 	border: solid 2px;
 }
+/* ?box that holds crystal collector text */
+div#title {
+	margin-top: 80px;
+	text-align: center;
+	margin-bottom: 130px;
+}
+
 
 h1{
 	background-color: yellow;
@@ -34,10 +41,12 @@ h1{
 	border: solid 1px #ddd;
 	border-radius: 30px;
 	font-family: 'Merriweather', serif;
+	margin-top: 40px;
 }
 
+
 #wrap {
-	width: 100%
+	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -77,21 +86,19 @@ h1{
 #crystals {
 	margin-top: 15px;
 	margin-bottom:26px;
-
+	text-align: center;
 
 }
 
-.crystalImg {
+img {
 	height: 111px;
-	border: solid 1px;
+	border: none;
 	margin-left: 10px;
-	border-radius: 15px;
+
+	margin: 40px;
 }
 
-.crystalImg:firstchild {
-	margin-left: 0px;
 
-}
 
 #userPoints {
 	margin-bottom: 50px;
