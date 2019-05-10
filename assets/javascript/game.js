@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     //global variables
-        crystals = ['assets/images/redMask.png','assets/images/mudMask.jpg','assets/images/sunMask.jpg', 'assets/images/blueMask.png'];
+        crystals = ['assets/images/redMask.png','assets/images/mudMask.jpg','assets/images/sunMask.png', 'assets/images/blueMask.png'];
     
         var counter = 0;
         var wins = 0;
