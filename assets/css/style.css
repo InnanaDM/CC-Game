@@ -19,7 +19,7 @@
 }
 
 body {
-	background-image: url("https://images.bluethumb.com.au/uploads/listing/86765/debra-ryan-original-abstract-art-painting-on-stretched-canvas-marble-blues-white-turquoise-bluethumb-b5c7.jpg?w=800&auto=compress&cs=tinysrgb&q=70&s=9aa9cce6345b8283b817d993a9cf448d");
+	background: gainsboro;
 	background-size: 55%;
 	border: solid 2px;
 }
@@ -31,8 +31,13 @@ div#title {
 }
 
 
-h1{
-	background-color: yellow;
+h1.ccTitle
+{	font-size: 80px;
+	background: url("../images/crystalscopy.jpg");
+	color: white;
+	font-weight: 700;
+	/* background-color: yellow;
+
 	color: white;
 	display:inline;
 	clear: both;
@@ -41,7 +46,7 @@ h1{
 	border: solid 1px #ddd;
 	border-radius: 30px;
 	font-family: 'Merriweather', serif;
-	margin-top: 40px;
+	margin-top: 40px; */
 }
 
 
@@ -87,11 +92,11 @@ h1{
 	margin-top: 15px;
 	margin-bottom:26px;
 	text-align: center;
-
+	
 }
 
 img {
-	height: 111px;
+	height: 231px;
 	border: none;
 	margin-left: 10px;
 
