@@ -17,7 +17,7 @@ $(document).ready(function() {
                 while(numbers.length < 4){
                     //Math.ceil will round the number into an integer
                     //here we will determine the random number 
-                    //this number is the wining number if the user gusse correctly
+                    //this number is the wining number if the user guess correctly
                   var randomNumber = Math.ceil(Math.random()*15)
                   var found = false;
                   for (var i=0; i< numbers.length; i++){
