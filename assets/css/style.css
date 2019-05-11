@@ -32,10 +32,14 @@ div#title {
 
 
 h1.ccTitle
-{	font-size: 80px;
-	background: url("../images/crystalscopy.jpg");
+{	font-size: 130px;
+	background: url("../images/africanAbstract.jpg");
 	color: white;
-	font-weight: 700;
+	font-weight: 900;
+	height: 140px;
+	
+	/* padding: 29px; */
+
 	/* background-color: yellow;
 
 	color: white;
