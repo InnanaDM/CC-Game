@@ -18,6 +18,20 @@
 	background-size: 75%; */
 }
 
+/* ?NAVBAR */
+div.nav-wrapper {
+	background-color: seashell;
+	height: 90px;
+}
+
+/* ?text in navbar IDM8 */
+a.brand-logo {
+	color: black;
+	font-size: 50px;
+	padding: 15px;
+	font-weight: 800;
+}
+
 body {
 	background: gainsboro;
 	background-size: 55%;
@@ -58,10 +72,12 @@ h2.nTG {
 
 }
 
+/* ?your number  */
 h2#yts {
 	text-align: center;
 	font-weight: 900;
 }
+
 
 
 #wrap {
