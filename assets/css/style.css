@@ -30,15 +30,14 @@ div#title {
 	margin-bottom: 130px;
 }
 
-
+/* ?head HUNTER title */
 h1.ccTitle
 {	font-size: 130px;
 	background: url("../images/africanAbstract.jpg");
 	color: white;
 	font-weight: 900;
-	height: 140px;
-	
-	/* padding: 29px; */
+	height: 220px;
+	padding: 35px;
 
 	/* background-color: yellow;
 
@@ -51,6 +50,17 @@ h1.ccTitle
 	border-radius: 30px;
 	font-family: 'Merriweather', serif;
 	margin-top: 40px; */
+}
+
+/* ?number to guess text */
+h2.nTG {
+	text-align: center;
+
+}
+
+h2#yts {
+	text-align: center;
+	font-weight: 900;
 }
 
 
