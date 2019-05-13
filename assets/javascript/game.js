@@ -33,6 +33,7 @@ $(document).ready(function() {
                 imageCrystal.attr('data-num', numbers[i]);
                 imageCrystal.attr('src', crystals[i]);
                 imageCrystal.attr('alt', 'crystals');
+                // !!!
                 imageCrystal.addClass('crystalImage')
                 $('#crystals').append(imageCrystal);
             }
@@ -51,7 +52,7 @@ $(document).ready(function() {
     
             $('.value').text(numberToGuess);
     
-    
+    // !        .CRYSTALIMAGE  
             $('.crystalImage').on('click', function(){
                 counter = counter + parseInt($(this).data('num'));
                
